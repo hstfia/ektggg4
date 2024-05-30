@@ -43,7 +43,7 @@
                     </a>
                     @yield('fasilitas')
                 </li>
-                <li><a class="page-scroll" href="{{ url('kalender-wisata') }}"strong style="font-size: 17px; font-weight:bold;">EVENT</a></li>
+                <li><a class="page-scroll" href="{{ url('kalender-wisata') }}"strong style="font-size: 12px; font-weight:bold;">EVENT</a></li>
                 <li><a class="page-scroll" href="{{ url('peta-wisata') }}">Peta Wisata</a></li>
                 <li><a class="page-scroll" href="{{ url('kontak-wisata') }}">Info & Kontak</a></li>
             </ul>

@@ -62,12 +62,12 @@
                                                 <a href="{{ url("atraksi-wisata/$atraksi_wisata->id") }}"
                                                     class="btn btn-light">
                                                     <strong style="font-size: 15px; font-weight:bold;">
-                                                        <i style= "color: rgb(8, 11, 175)" class="icofont-badge"> Rekomendasi</i>
+                                                        <i style= "color: rgb(15, 67, 188)" class="icofont-badge"> Rekomendasi</i>
                                                     </a>
                                             @elseif ($atraksi_wisata->rekomendasi == 1)
                                             @endif
                                         </span>
-                                       
+
                                     </div>
                                     <div class="item">
                                         <a href="{{ url("atraksi-wisata/$atraksi_wisata->id") }}">

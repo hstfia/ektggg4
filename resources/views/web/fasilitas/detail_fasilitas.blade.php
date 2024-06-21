@@ -71,7 +71,7 @@
                             <a class="btn btn-md btn-dark-outline btn-square mt-10"
                             href="{{ url("$fasilitas->link") }}">Pemesanan tempat</a>
                         </ul>
-                        
+
                                 <h5 class="aside-title">fasiilitas</h5>
                                 <ul>
                                     <li>

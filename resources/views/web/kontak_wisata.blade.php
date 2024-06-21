@@ -3,7 +3,7 @@
     @include('menu.menu')
 
     <section class="xxl-screen pt-0 pb-0 bg-flex-cover" id="home"
-        style="background-image: url(public/web/assets/images/c.jpeg);">
+        style="background-image: url(public/web/assets/images/pulau2.jpg);">
         <div class="hero-text-wrap xxl-screen">
             <div class="hero-text">
                 <div class="text-content-slider slick">

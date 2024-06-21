@@ -41,7 +41,7 @@
     <script src="{{ url('public/web') }}/assets/js/leaflet-panel-layers/dist/leaflet-panel-layers.src.js"></script>
 
 
-   
+
 </head>
 
 <body>
@@ -92,6 +92,7 @@
     <script src="{{ url('public/web') }}/revolution/js/revolution.extension.slideanims.min.js"></script>
     <script src="{{ url('public/web') }}/revolution/js/revolution.extension.video.min.js"></script>
     <!--== Javascript Plugins End ==-->
+
 
     @stack('script')
 </body>

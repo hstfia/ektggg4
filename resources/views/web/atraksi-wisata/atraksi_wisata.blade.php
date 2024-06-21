@@ -52,7 +52,7 @@
             </div>
             <div class="row mt-50">
                 @foreach ($list_atraksi_wisata as $atraksi_wisata)
-                    @if ($atraksi_wisata->status == 2)
+                    {{-- @if ($atraksi_wisata->status == 2) --}}
                         <div class="col-md-4 blog-list wow fadeInLeft" data-wow-delay="0.1s">
                             <div class="post-wrap mb-30">
                                 <div class="post-img">
@@ -62,12 +62,11 @@
                                                 <a href="{{ url("atraksi-wisata/$atraksi_wisata->id") }}"
                                                     class="btn btn-light">
                                                     <strong style="font-size: 15px; font-weight:bold;">
-                                                        <i style= "color: rgb(15, 67, 188)" class="icofont-badge"> Rekomendasi</i>
+                                                        <i style= "color: rgb(30, 187, 40)" class="icofont-badge"> </i>
                                                     </a>
                                             @elseif ($atraksi_wisata->rekomendasi == 1)
                                             @endif
                                         </span>
-
                                     </div>
                                     <div class="item">
                                         <a href="{{ url("atraksi-wisata/$atraksi_wisata->id") }}">
@@ -86,7 +85,7 @@
                                 </div>
                             </div>
                         </div>
-                    @endif
+                    {{-- @endif --}}
                 @endforeach
             </div>
         </div>

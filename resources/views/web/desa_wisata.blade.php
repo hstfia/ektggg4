@@ -81,13 +81,15 @@
                                                     style="width:100% ; height:300px; object-fit: cover"
                                                     src="{{ url("public/$desa_wisata->foto2") }}"
                                                     alt="Tidak Dapat Memuat Gambar" />
+
+                                                    
                                             </a>
-                                        </div>
+                                        </div> <br>
                                     </div>
                                     <div class="post-text">
                                         <h3><a
                                                 href="{{ url("$desa_wisata->link_jadesta") }}">{{ $desa_wisata->nama_desa_wisata }}</a>
-                                                <p></a><a href="{{ url("$desa_wisata->link_wisata") }}" class="btn btn-success" target="_blank" title="Link Video Youtube"><i class="icofont-youtube"></i></span>VIEW WISATA</a>
+                                                {{-- <p></a><a href="{{ url("$desa_wisata->link_wisata") }}" class="btn btn-success" target="_blank" title="Link Video Youtube"><i class="icofont-youtube"></i></span>Video WISATA</a> --}}
                                         </h3>
                                         <p>
                                             {{ "$desa_wisata->deskripsi" }}

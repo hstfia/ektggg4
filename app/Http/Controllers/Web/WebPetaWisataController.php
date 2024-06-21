@@ -19,6 +19,7 @@ class WebPetaWisataController extends Controller
         $data['list_desa_wisata'] =DesaWisata::all();
         $data['list_atraksi_wisata']=AtraksiWisata::all();
         $data['list_fasilitas']=Fasilitas::all();
+
         return view('web.peta_wisata', $data);
     }
 
